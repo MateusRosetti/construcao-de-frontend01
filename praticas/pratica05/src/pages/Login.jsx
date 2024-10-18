@@ -6,17 +6,18 @@ import InputEmail from "../components/InputEmail";
 import InputSenha from "../components/InputSenha";
 import Botao from "../components/Botao";
 import Link from "../components/link";
+import './Login.css';
 function Login() {
     return (
      <>
-     <Conteudo>
+     <Conteudo className="login-container">
      <Icone imagem="" texto="Logo da Aplicação"/>
 <Titulo texto="Aluno Online" />
 <InputEmail />
 <InputSenha />
 <Botao texto="Entrar"/>
 <Link texto="Esqueceu a Senha?" />
-
+ 
      </Conteudo>
 <Rodape texto="Copyright (C) 2024" />
 
