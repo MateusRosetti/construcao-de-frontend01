@@ -1,3 +1,4 @@
+import './input.css'
 function InputSenha() {
     return (
      <>

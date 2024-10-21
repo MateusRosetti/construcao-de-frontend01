@@ -1,3 +1,4 @@
+import './Botao.css';
 function Botao() {
     return (
      <button>{Props.imagem}</button>
